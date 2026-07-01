@@ -15,7 +15,6 @@ This project is a RESTful web application developed using Java and Spring Boot. 
 * Hibernate ORM
 * MySQL Database Connectivity
 * Request Validation
-* Global Exception Handling
 * Clean Code Structure
 * Maven Build Management
 
@@ -48,16 +47,12 @@ src
     │       ├── service
     │       ├── repository
     │       ├── entity
-    │       ├── dto
-    │       ├── exception
-    │       ├── config
     │       └── ProjectApplication.java
     │
     └── resources
         ├── application.properties
         └── static
 ```
-
 ---
 
 ## 🏗️ Architecture
@@ -172,24 +167,6 @@ Recommended screenshots:
 * DELETE Request
 * MySQL Database Tables
 * Console Output
-
----
-
-## 📷 Screenshots
-
-Create a folder named `screenshots` and place images inside it.
-
-Example:
-
-```md
-![Project Structure](screenshots/project-structure.png)
-
-![POST API](screenshots/post-api.png)
-
-![GET API](screenshots/get-api.png)
-
-![Database](screenshots/database.png)
-```
 
 ---
 
